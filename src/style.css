@@ -1,0 +1,76 @@
+.axis {
+    font-size: 23px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    display: none;
+}
+
+.label {
+    font-size: 23px;
+}
+
+.land {
+    fill: #ddd;
+}
+
+.border {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.bubble {
+    fill-opacity: .8;
+    stroke: #fff;
+    stroke-width: .5px;
+}
+
+.legend circle {
+    fill: none;
+    stroke: #ccc;
+}
+
+.legend text {
+    fill: #777;
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+.states {
+    fill: #c6d5e8;
+}
+
+.hover {
+    stroke:#666; fill-opacity: .8;
+}
+
+#counties-map {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+}
+
+#barchart {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+}
+body {
+    font: small-caps 200 2em/1.5em 'Open Sans', sans-serif;
+}
+
+h1 {
+    font: small-caps 200 2em/1.5em 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 0;
+    font-size: 48px;
+}
